@@ -27,7 +27,7 @@ pip install pillow pillow-heif tqdm
 - Run the script:
 
 ```bash
-python convert.py
+python script.py
 ```
 
 - Converted `.png` images will appear in the `png/` folder.
