@@ -19,6 +19,16 @@ Install required libraries:
 
 ```bash
 pip install pillow pillow-heif tqdm
-
+```
 
 ## Usage
+
+- Place all your `.heic` images inside the `heic/` folder.
+- Run the script:
+
+```bash
+python convert.py
+```
+
+- Converted `.png` images will appear in the `png/` folder.
+- A `conversion_log.txt` file will be generated inside the `png/` folder with the conversion history.
